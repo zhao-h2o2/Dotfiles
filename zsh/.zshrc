@@ -31,6 +31,10 @@ zinit light-mode for \
 zinit ice depth"1" # git clone depth
 zinit light romkatv/powerlevel10k
 
+# autosuggestion and syntax highlight
+zinit light zsh-users/zsh-autosuggestions
+zinit light zdharma-continuum/fast-syntax-highlighting
+
 # eza - alias for ls
 zi wait lucid for \
   has'eza' atinit'AUTOCD=1' \
