@@ -5,3 +5,6 @@
 
 - clean: ["~", "~/.config"]
 
+- link:
+    ~/.config/nvim: neovim
+
