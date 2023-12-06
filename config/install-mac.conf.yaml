@@ -6,6 +6,7 @@
     - git-flow
     - lazygit
     - neovim
+    - font-jetbrains-mono-nerd-font
 
 - cask:
     - alex313031-thorium
