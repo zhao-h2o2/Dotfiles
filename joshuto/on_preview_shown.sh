@@ -25,12 +25,29 @@ function video {
 	image "${TMP_FILE}"
 }
 
+function pdf {
+	filename=$(basename "$(echo "$1" | tr ' ' '_')")
+	if [[ ! -f "$HOME/.cache/joshuto/${filename}.jpg" ]]; then
+		pdftoppm -f 1 -l 1 \
+			-scale-to-x 1920 \
+			-scale-to-y -1 \
+			-singlefile \
+			-jpeg \
+			-tiffcompression jpeg \
+			-- "$1" "$HOME/.cache/joshuto/${filename}"
+	fi
+	image "$HOME/.cache/joshuto/${filename}.jpg"
+}
+
 case "$mimetype" in
 image/*)
 	image "${FILE_PATH}"
 	;;
 video/*)
 	video "${FILE_PATH}"
+	;;
+application/pdf)
+	pdf "${FILE_PATH}"
 	;;
 *)
 	kitty +kitten icat \
