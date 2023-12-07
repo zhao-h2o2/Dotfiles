@@ -17,6 +17,7 @@
     - fzf
     - joshuto
     - poppler
+    - baidupcs-go
 
 - cask:
     - alex313031-thorium
@@ -24,7 +25,12 @@
     - wechat
     - douyin
     - neteasemusic
+    - zotero
     - obsidian
     - kitty
     - squirrel
+    - appcleaner
+    - tencent-meeting
+    - zoom
+    - wpsoffice-cn
 
