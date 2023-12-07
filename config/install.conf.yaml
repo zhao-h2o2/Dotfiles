@@ -10,4 +10,5 @@
     ~/.zshenv: zsh/.zshenv
     ~/.config/zsh: zsh
     ~/.config/ranger: ranger
+    ~/.config/joshuto: joshuto
 
