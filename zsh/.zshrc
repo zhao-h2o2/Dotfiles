@@ -31,14 +31,17 @@ zinit light-mode for \
 zinit light zimfw/input
 zinit light zimfw/environment
 
+# fzf completion
+zpcompinit; zpcdreplay
+zinit light Aloxaf/fzf-tab
+
 # Load powerlevel10k theme
 zinit ice depth"1" # git clone depth
 zinit light romkatv/powerlevel10k
 
-# autosuggestion and syntax highlight and completion
+# autosuggestion and syntax highlight
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma-continuum/fast-syntax-highlighting
-zinit light Aloxaf/fzf-tab
 
 # eza - alias for ls
 zi wait lucid for \
