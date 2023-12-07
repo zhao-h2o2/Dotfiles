@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # 常用
-alias ra='ranger'
-alias sra='sudo -E ranger'
+alias ra='joshuto'
+alias sra='sudo -E joshuto'
 alias lg='lazygit'
 alias c='clear'
 alias s='/Users/zhao/.config/neofetch/launch-neofetch.sh'
