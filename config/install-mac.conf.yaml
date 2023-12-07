@@ -3,6 +3,7 @@
       glob: true
       path: rime/rime-ice/*
     ~/Library/Rime/squirrel.custom.yaml: rime/custom/squirrel.custom.yaml
+    ~/.config/yabai: yabai
 
 - tap:
     - homebrew/cask-fonts
@@ -18,6 +19,7 @@
     - joshuto
     - poppler
     - baidupcs-go
+    - koekeishiya/formulae/yabai
 
 - cask:
     - alex313031-thorium
