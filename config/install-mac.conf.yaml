@@ -9,6 +9,7 @@
     - font-jetbrains-mono-nerd-font
     - eza
     - fzf
+    - joshuto
 
 - cask:
     - alex313031-thorium
@@ -16,4 +17,5 @@
     - wechat
     - douyin
     - neteasemusic
+    - obsidian
 
