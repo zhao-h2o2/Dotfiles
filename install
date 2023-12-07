@@ -14,10 +14,11 @@ git -C "${BREW_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive "${DOTBOT_DIR}"
 git submodule update --init --recursive "${BREW_DIR}"
 
-"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "config/install.conf.yaml" "${@}"
-if [ "$(uname)"=="Darwin" ];then
-    "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot/dotbot-brew -c "config/install-mac.conf.yaml" "${@}"
-elif [ "$(expr substr $(uname -s) 1 5))"=="Linux" ];then
-    "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "config/install-linux.conf.yaml" "${@}"
-fi
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
+"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "config/install.conf.yaml" "${@}"
+if [ "$(uname)"=="Darwin" ]; then
+	"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" --plugin-dir dotbot/dotbot-brew -c "config/install-mac.conf.yaml" "${@}"
+elif [ "$(expr substr $(uname -s) 1 5))"=="Linux" ]; then
+	"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "config/install-linux.conf.yaml" "${@}"
+fi
