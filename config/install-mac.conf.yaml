@@ -4,6 +4,7 @@
       path: rime/rime-ice/*
     ~/Library/Rime/squirrel.custom.yaml: rime/custom/squirrel.custom.yaml
     ~/.config/yabai: yabai
+    ~/.config/skhd: skhd
 
 - tap:
     - homebrew/cask-fonts
@@ -20,6 +21,7 @@
     - poppler
     - baidupcs-go
     - koekeishiya/formulae/yabai
+    - koekeishiya/formulae/skhd
 
 - cask:
     - alex313031-thorium
