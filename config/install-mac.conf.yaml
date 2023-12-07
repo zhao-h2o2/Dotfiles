@@ -2,6 +2,7 @@
     ~/Library/Rime/:
       glob: true
       path: rime/rime-ice/*
+    ~/Library/Rime/squirrel.custom.yaml: rime/custom/squirrel.custom.yaml
 
 - tap:
     - homebrew/cask-fonts
