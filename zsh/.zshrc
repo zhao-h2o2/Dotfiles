@@ -36,19 +36,27 @@ zinit light zimfw/environment
 # fzf completion
 zpcompinit; zpcdreplay
 zinit light Aloxaf/fzf-tab
-
-# Load powerlevel10k theme
-zinit ice depth"1" # git clone depth
-zinit light romkatv/powerlevel10k
-
 # autosuggestion and syntax highlight
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma-continuum/fast-syntax-highlighting
-
+zinit light hlissner/zsh-autopair
 # eza - alias for ls
 zi wait lucid for \
   has'eza' atinit'AUTOCD=1' \
     z-shell/zsh-eza
+# you-should-use
+zinit light MichaelAquilina/zsh-you-should-use
+# Initialize fzf
+# ^T - file
+# ^R - history
+zinit light zap-zsh/fzf
+# fzf-marks
+# ^G - fzm
+zinit light urbainvaes/fzf-marks
+
+# Load powerlevel10k theme
+zinit ice depth"1" # git clone depth
+zinit light romkatv/powerlevel10k
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
