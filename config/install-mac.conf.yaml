@@ -10,6 +10,7 @@
     - eza
     - fzf
     - joshuto
+    - poppler
 
 - cask:
     - alex313031-thorium

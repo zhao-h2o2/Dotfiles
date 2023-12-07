@@ -86,12 +86,12 @@ handle_extension() {
 		## PDF
 	pdf)
 		## Preview as text conversion
-		pdftotext -l 10 -nopgbrk -q -- "${FILE_PATH}" - |
-			fmt -w "${PREVIEW_WIDTH}" && exit 0
-		mutool draw -F txt -i -- "${FILE_PATH}" 1-10 |
-			fmt -w "${PREVIEW_WIDTH}" && exit 0
-		exiftool "${FILE_PATH}" && exit 0
-		exit 1
+		# pdftotext -l 10 -nopgbrk -q -- "${FILE_PATH}" - |
+		# 	fmt -w "${PREVIEW_WIDTH}" && exit 0
+		# mutool draw -F txt -i -- "${FILE_PATH}" 1-10 |
+		# 	fmt -w "${PREVIEW_WIDTH}" && exit 0
+		# exiftool "${FILE_PATH}" && exit 0
+		exit 0
 		;;
 
 		## BitTorrent
