@@ -1,3 +1,8 @@
+- link:
+    ~/Library/Rime/:
+      glob: true
+      path: rime/rime-ice/*
+
 - tap:
     - homebrew/cask-fonts
 
