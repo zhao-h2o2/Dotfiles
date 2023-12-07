@@ -27,13 +27,18 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-patch-dl \
     zdharma-continuum/zinit-annex-rust
 
+# basic zimfw modules
+zinit light zimfw/input
+zinit light zimfw/environment
+
 # Load powerlevel10k theme
 zinit ice depth"1" # git clone depth
 zinit light romkatv/powerlevel10k
 
-# autosuggestion and syntax highlight
+# autosuggestion and syntax highlight and completion
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light Aloxaf/fzf-tab
 
 # eza - alias for ls
 zi wait lucid for \
