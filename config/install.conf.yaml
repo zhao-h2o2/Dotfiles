@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ["~", "~/.config"]
+
+- link:
+    ~/.config/nvim: neovim
+    ~/.zshenv: zsh/.zshenv
+    ~/.config/zsh: zsh
+    ~/.config/joshuto: joshuto
+    ~/.config/kitty: kitty
+

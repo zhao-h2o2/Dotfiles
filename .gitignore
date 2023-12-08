@@ -1,0 +1,8 @@
+# zsh
+zsh/.zcomp*
+zsh/.zsh_history
+zsh/.zsh_sessions
+
+# ranger
+__pycache__
+ranger/plugins/__init__.py

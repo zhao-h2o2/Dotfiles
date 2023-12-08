@@ -1,0 +1,16 @@
+[submodule "dotbot/main"]
+	path = dotbot/main
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
+[submodule "dotbot/dotbot-brew"]
+	path = dotbot/dotbot-brew
+	url = https://github.com/d12frosted/dotbot-brew.git
+	ignore = dirty
+[submodule "ranger/plugins/ranger_devicons"]
+	path = ranger/plugins/ranger_devicons
+	url = https://github.com/alexanderjeurissen/ranger_devicons
+  ignore = dirty
+[submodule "rime/rime-ice"]
+	path = rime/rime-ice
+	url = https://github.com/iDvel/rime-ice
+  ignore = dirty

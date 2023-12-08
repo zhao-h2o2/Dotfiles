@@ -1,0 +1,40 @@
+- link:
+    ~/Library/Rime/:
+      glob: true
+      path: rime/rime-ice/*
+    ~/Library/Rime/squirrel.custom.yaml: rime/custom/squirrel.custom.yaml
+    ~/.config/yabai: yabai
+    ~/.config/skhd: skhd
+
+- tap:
+    - homebrew/cask-fonts
+
+- brew:
+    - git
+    - git-flow
+    - lazygit
+    - neovim
+    - font-jetbrains-mono-nerd-font
+    - eza
+    - fzf
+    - joshuto
+    - poppler
+    - baidupcs-go
+    - koekeishiya/formulae/yabai
+    - koekeishiya/formulae/skhd
+
+- cask:
+    - alex313031-thorium
+    - raycast
+    - wechat
+    - douyin
+    - neteasemusic
+    - zotero
+    - obsidian
+    - kitty
+    - squirrel
+    - appcleaner
+    - tencent-meeting
+    - zoom
+    - wpsoffice-cn
+
