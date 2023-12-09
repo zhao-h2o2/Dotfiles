@@ -2,6 +2,7 @@
 zsh/.zcomp*
 zsh/.zsh_history
 zsh/.zsh_sessions
+zsh/.zhistory
 
 # ranger
 __pycache__
