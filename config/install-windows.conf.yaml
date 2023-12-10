@@ -22,6 +22,10 @@
     C:/Program Files/Everything:
         glob: true
         path: apps/everything/everythinglib/*
+    
+    # Wechat Files
+    ~/Documents/WeChat Files: ../ProgramData/WeChat Files
+    ~/Documents/WXWork: ../ProgramData/WXWork
 
 - shell:
   - [regedit /s desktop\windows\Registry\UTC.reg]
