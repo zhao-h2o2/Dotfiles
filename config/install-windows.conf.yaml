@@ -28,6 +28,8 @@
     ~/Documents/WXWork: ../ProgramData/WXWork
     # Total Commander
     ~/AppData/Local/TotalCMD64: ../ProgramData/TotalCMD64
+    # typora
+    ~/AppData/Roaming/Typora/themes: ../ProgramData/Typora/themes
 
 - shell:
   - [regedit /s desktop\windows\Registry\UTC.reg]
