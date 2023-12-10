@@ -9,3 +9,9 @@
     # Listary
     ~/AppData/Roaming/Listary/UserProfile/Settings/Preferences.json: apps/listary/UserProfile/Settings/Preferences.json
     ~/AppData/Roaming/Listary/UserProfile/UserFiles: apps/listary/UserProfile/UserFiles
+
+    # everything
+    ~/AppData/Roaming/Everything: apps/everything/everything
+    C:/Program Files/Everything:
+        glob: true
+        path: apps/everything/everythinglib/*
