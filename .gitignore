@@ -1,8 +1,8 @@
 # zsh
-zsh/.zcomp*
-zsh/.zsh_history
-zsh/.zsh_sessions
-zsh/.zhistory
+shell/zsh/.zcomp*
+shell/zsh/.zsh_history
+shell/zsh/.zsh_sessions
+shell/zsh/.zhistory
 
 # ranger
 __pycache__
