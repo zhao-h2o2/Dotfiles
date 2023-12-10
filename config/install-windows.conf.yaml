@@ -5,3 +5,7 @@
 
 - link:
     ~/.gitconfig: shell/git/.gitconfig-win
+
+    # Listary
+    ~/AppData/Roaming/Listary/UserProfile/Settings/Preferences.json: apps/listary/UserProfile/Settings/Preferences.json
+    ~/AppData/Roaming/Listary/UserProfile/UserFiles: apps/listary/UserProfile/UserFiles

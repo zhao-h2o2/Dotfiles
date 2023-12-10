@@ -1,0 +1,390 @@
+{
+  "AppConfigs": {
+    "TypeConfigs": {
+      "DirectoryOpus": {},
+      "WindowsExplorer": {},
+      "FileDialog": {},
+      "FolderDialog": {},
+      "Desktop": {},
+      "TotalCommander": {},
+      "FreeCommander": {},
+      "XYplorer": {},
+      "xplorer2": {},
+      "Bandizip": {},
+      "AutoCAD": {},
+      "WinRAR.ExtractDialog": {}
+    },
+    "PathConfigs": {}
+  },
+  "Menus": {
+    "Favorites": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": []
+    }
+  },
+  "DiskSearch": {
+    "FolderPriority": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": []
+    },
+    "FileNamePriority": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Regex": "*Ink",
+            "Priority": -2
+          }
+        }
+      ],
+      "Updates": []
+    },
+    "SearchFilter": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": [
+        {
+          "Id": "7b3543f0-36aa-4065-afa5-ebf4bf68be93",
+          "UpdatedProperties": {
+            "Keyword": "d"
+          }
+        },
+        {
+          "Id": "1d14bae5-efbb-43f8-a360-cb787fed0990",
+          "UpdatedProperties": {
+            "Keyword": "f"
+          }
+        }
+      ]
+    },
+    "DisabledNtfsVolumes": [],
+    "CustomFolders": []
+  },
+  "Commands": {
+    "Items": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": []
+    }
+  },
+  "WebSearch": {
+    "Items": {
+      "Deletions": [
+        "5ac62036-62aa-49d3-866b-d041bc7b1b76",
+        "4ed886fb-1df0-4fd0-abc1-810fc180e647",
+        "5014b42a-884d-40d3-835d-69079dd9fc51",
+        "95147e79-6274-4127-98bb-09d9ffa2a39a",
+        "610a486d-0028-4739-8eb6-50f5247c918f",
+        "2db0261a-1114-4c8d-8cc8-62a89aeb1a35",
+        "455e1dc4-5e38-4b00-85da-d0bf46c68f4f",
+        "1744aa0c-751a-495f-aac5-6910e7406229"
+      ],
+      "Moves": [],
+      "Insertions": [
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "zh",
+            "Url": "https://www.zhihu.com/search?type=content&q={query}",
+            "Title": "知乎",
+            "Icon": {
+              "Path": "{user}\\25109a2b-873e-40b7-a201-7f289dcdb6e4.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "icon",
+            "Url": "https://www.iconfont.cn/search/index?searchType=icon&q={query}",
+            "Title": "iconfont",
+            "Icon": {
+              "Path": "{user}\\a847c214-2461-467f-8b29-4b5e63a29971.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "bl",
+            "Url": "https://search.bilibili.com/all?keyword={query}",
+            "Title": "哔哩哔哩",
+            "Icon": {
+              "Path": "{user}\\4b6876bb-65a4-4744-ba87-fcad6d105d97.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "gh",
+            "Url": "https://github.com/search?q={query}&type=repositories",
+            "Title": "github",
+            "Icon": {
+              "Path": "{user}\\c0a87004-a711-4a0f-b133-f2e259cb475b.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "tb",
+            "Url": "https://s.taobao.com/search?q={query}",
+            "Title": "淘宝",
+            "Icon": {
+              "Path": "{user}\\b8d552be-6727-45c3-84ec-d62f7b7d68a3.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "cs",
+            "Url": "https://chemsearch.kovsky.net/index.php?q={query}",
+            "Title": "ChemSearch",
+            "Icon": {
+              "Path": "{user}\\645dad65-fd99-4046-babd-0d37366b64d3.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "doi",
+            "Url": "https://www.doi.org/doi={query}",
+            "Title": "DOI",
+            "Icon": {
+              "Path": "{user}\\25411348-967c-4761-8bc5-7bde6ad0bcf0.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "jd",
+            "Url": "https://search.jd.com/Search?keyword={query}",
+            "Title": "京东",
+            "Icon": {
+              "Path": "{user}\\fa78858c-f02b-47ec-bf06-498b530026b9.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "csdn",
+            "Url": "https://so.csdn.net/so/search?&q={query}",
+            "Title": "CSDN",
+            "Icon": {
+              "Path": "{user}\\1c8ab597-8e6f-4bc1-8e16-0376e50956e4.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "js",
+            "Url": "https://www.jianshu.com/search?q={query}",
+            "Title": "简书",
+            "Icon": {
+              "Path": "{user}\\8998e74a-5481-4f67-a76d-36b47aeaf37d.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "gl",
+            "Url": "https://gitlab.com/search?search={query}",
+            "Title": "gitlab",
+            "Icon": {
+              "Path": "{user}\\c99bf5aa-163f-4dd9-85d4-965cf2d6b780.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "bds",
+            "Url": "https://xueshu.baidu.com/s?wd={query}",
+            "Title": "百度学术",
+            "Icon": {
+              "Path": "{user}\\f3535f16-2b24-4abe-970c-292987bc5b29.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "gs",
+            "Url": "https://scholar.google.com/scholar?hl=zh-CN&q={query}",
+            "Title": "谷歌学术",
+            "Icon": {
+              "Path": "{user}\\e3cbbe40-d6bd-4979-9dfd-8b772687d534.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "bs",
+            "Url": "https://cn.bing.com/academic/search?q={query}",
+            "Title": "必应学术",
+            "Icon": {
+              "Path": "{user}\\580dcb04-0cd5-44e2-8374-b0c945f85ea6.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "yt",
+            "Url": "https://www.youtube.com/results?search_query={query}",
+            "Title": "YouTube",
+            "Icon": {
+              "Path": "{user}\\bb2d0a0c-9d4c-46b6-ac33-2f1b1ab39755.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "xm",
+            "Url": "https://www.x-mol.com/paper/search/q?option={query}",
+            "Title": "X-MOL",
+            "Icon": {
+              "Path": "{user}\\74c993d6-8b85-4047-8d2c-be20b66c84ba.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "sh",
+            "Url": "https://sci-hub.se/{query}",
+            "Title": "SCI-HUB",
+            "Icon": {
+              "Path": "{user}\\feede334-2fdb-4715-aec3-18df1d7d1123.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "wb",
+            "Url": "https://s.weibo.com/weibo?q={query}",
+            "Title": "微博",
+            "Icon": {
+              "Path": "{user}\\edf7002b-b077-4949-88d0-3b46c73c15f6.png",
+              "TypeName": "Path"
+            }
+          }
+        },
+        {
+          "Index": -1,
+          "Info": null,
+          "Item": {
+            "Keyword": "cr",
+            "Url": "https://filecr.com/search/?query={query}",
+            "Title": "filecr",
+            "Icon": {
+              "Path": "{user}\\917ff92b-18a1-4dca-ad94-4001cbc9a237.jpg",
+              "TypeName": "Path"
+            }
+          }
+        }
+      ],
+      "Updates": [
+        {
+          "Id": "ecb51462-cb27-4b89-ae53-333b4550f489",
+          "UpdatedProperties": {
+            "SuggestionProvider": "None"
+          }
+        },
+        {
+          "Id": "dd896809-2af4-405b-834f-45816615e3e3",
+          "UpdatedProperties": {
+            "Keyword": "b",
+            "SuggestionProvider": "None"
+          }
+        },
+        {
+          "Id": "b36cf1bb-5527-42d8-bf91-d034bcbf057b",
+          "UpdatedProperties": {
+            "Keyword": "bd"
+          }
+        }
+      ]
+    }
+  },
+  "Actions": {
+    "Items": {
+      "Deletions": [],
+      "Moves": [],
+      "Insertions": [],
+      "Updates": []
+    }
+  },
+  "AutoUpdate": {},
+  "Settings": {
+    "Hotkey.EnableDoubleCtrl": false,
+    "Hotkey.ShowListary": 288,
+    "OpenFolder.Path": "\"C:\\Users\\zhao\\AppData\\Local\\TotalCMD64\\TotalCMD64.exe\"",
+    "OpenFolder.Param": "/O /T \"%1\"",
+    "Tutorial.ShowMainV2": false,
+    "Appearance.Theme": 2,
+    "Listary5.SettingsImported": true,
+    "Listary5.ProLicense.Name": "samoray@samoray.com",
+    "Listary5.ProLicense.Email": "samoray@samoray.com",
+    "Listary5.ProLicense.Key": "JE4V8T3M96PWT4SUCNZNVZ37XKLBU2QWN64LEJQ3VHY7MPL6KY2R5SQZ76QFFTKPVVE8JBVEAME8MMBRHRGF2P6MAJG7ZSQYMUY2PGTQ2EG3W2YHTU2CFWL7SE6THU3QTAL3U894S2BWA9629EFCXYYYG3S65WEQN3SZSNSEGXMEUWD27PNENP4GR2EKKDK6"
+  },
+  "Extensions": {
+    "Extensions": {
+      "1a63ea9d-bf25-431f-96e3-17b80027efab": {}
+    }
+  }
+}
