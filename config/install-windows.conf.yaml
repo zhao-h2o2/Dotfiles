@@ -11,6 +11,7 @@
     ~/.gitconfig: shell/git/.gitconfig-win
     # python
     ~/AppData/Roaming/pip/pip.ini: shell/python/pip.ini
+    ~/.condarc: shell/python/.condarc
 
     # Clash
     ~/.config/clash: ../Secrets/clash
