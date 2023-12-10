@@ -20,3 +20,8 @@
     C:/Program Files/Everything:
         glob: true
         path: apps/everything/everythinglib/*
+
+- shell:
+  - [regedit /s desktop\windows\Registry\UTC.reg]
+  - [regedit /s desktop\windows\Registry\Origin2021.reg]
+  - [regedit /s desktop\windows\Registry\TotalCommander.reg]
