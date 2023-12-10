@@ -6,7 +6,7 @@
 	path = dotbot/dotbot-brew
 	url = https://github.com/d12frosted/dotbot-brew.git
 	ignore = dirty
-[submodule "rime/rime-ice"]
-	path = rime/rime-ice
-	url = https://github.com/iDvel/rime-ice
+[submodule "apps/rime/rime-ice"]
+	path = apps/rime/rime-ice
+	url = https://github.com/iDvel/rime-ice.git
   ignore = dirty
