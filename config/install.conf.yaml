@@ -10,5 +10,5 @@
     ~/.config/zsh: shell/zsh
     ~/.config/nvim: cli-apps/neovim
     ~/.config/joshuto: cli-apps/joshuto
-    ~/.config/kitty: kitty
+    ~/.config/kitty: apps/kitty
 
