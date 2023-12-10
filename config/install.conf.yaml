@@ -6,9 +6,9 @@
 - clean: ["~", "~/.config"]
 
 - link:
-    ~/.config/nvim: neovim
     ~/.zshenv: shell/zsh/.zshenv
     ~/.config/zsh: shell/zsh
-    ~/.config/joshuto: joshuto
+    ~/.config/nvim: cli-apps/neovim
+    ~/.config/joshuto: cli-apps/joshuto
     ~/.config/kitty: kitty
 
