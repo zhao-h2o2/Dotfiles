@@ -4,9 +4,4 @@
       relink: true
 
 - link:
-    ~/Library/Rime/:
-      glob: true
-      path: rime/rime-ice/*
-    ~/Library/Rime/squirrel.custom.yaml: rime/custom/squirrel.custom.yaml
-    ~/.config/yabai: yabai
-    ~/.config/skhd: skhd
+    ~/.gitconfig: shell/git/.gitconfig-win

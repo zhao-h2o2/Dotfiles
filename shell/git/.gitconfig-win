@@ -1,0 +1,8 @@
+[user]
+	name = Zhaohui Wang
+	email = 18811365389@163.com
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true

@@ -9,4 +9,4 @@
 [submodule "apps/rime/rime-ice"]
 	path = apps/rime/rime-ice
 	url = https://github.com/iDvel/rime-ice.git
-  ignore = dirty
+  	ignore = dirty
