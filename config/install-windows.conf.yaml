@@ -5,6 +5,8 @@
 
 - link:
     ~/.gitconfig: shell/git/.gitconfig-win
+    # python
+    ~/AppData/Roaming/pip/pip.ini: shell/python/pip.ini
 
     # Listary
     ~/AppData/Roaming/Listary/UserProfile/Settings/Preferences.json: apps/listary/UserProfile/Settings/Preferences.json
