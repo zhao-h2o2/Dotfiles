@@ -22,6 +22,10 @@
     C:/Program Files/Everything:
         glob: true
         path: apps/everything/everythinglib/*
+    # Rime
+    ~/AppData/Roaming/Rime:
+        glob: true
+        path: apps/rime/rime-ice/*
     
     # Wechat Files
     ~/Documents/WeChat Files: ../ProgramData/WeChat Files
