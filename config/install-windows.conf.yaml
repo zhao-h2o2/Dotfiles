@@ -12,6 +12,8 @@
     # python
     ~/AppData/Roaming/pip/pip.ini: shell/python/pip.ini
 
+    # Clash
+    ~/.config/clash: ../Secrets/clash
     # Listary
     ~/AppData/Roaming/Listary/UserProfile/Settings/Preferences.json: apps/listary/UserProfile/Settings/Preferences.json
     ~/AppData/Roaming/Listary/UserProfile/UserFiles: apps/listary/UserProfile/UserFiles
