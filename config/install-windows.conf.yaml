@@ -4,6 +4,10 @@
       relink: true
 
 - link:
+    # ssh
+    ~/.ssh/id_ed25519: ../Secrets/ssh/id_ed25519
+    ~/.ssh/id_ed25519.pub: ../Secrets/ssh/id_ed25519.pub
+    # git
     ~/.gitconfig: shell/git/.gitconfig-win
     # python
     ~/AppData/Roaming/pip/pip.ini: shell/python/pip.ini
