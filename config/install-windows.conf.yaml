@@ -26,6 +26,8 @@
     # Wechat Files
     ~/Documents/WeChat Files: ../ProgramData/WeChat Files
     ~/Documents/WXWork: ../ProgramData/WXWork
+    # Total Commander
+    ~/AppData/Local/TotalCMD64: ../ProgramData/TotalCMD64
 
 - shell:
   - [regedit /s desktop\windows\Registry\UTC.reg]
