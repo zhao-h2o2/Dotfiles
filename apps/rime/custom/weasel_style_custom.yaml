@@ -292,11 +292,8 @@ preset_color_schemes:
     
 # 为特定的应用单独设定选项
 app_options:
-  appname.exe: # 带 .exe 的进程名，全小写
+  listary.exe:
     ascii_mode: true # 英文模式
-    inline_preedit: true # 行内显示预编辑区。当前版本小狼毫将 inline_preedit 设定为 false 时，会在输入时预插入一个空格，这在 Firefox 等应用中会引发问题，可以在此处为这些应用单独指定 inline_preedit。refer <https://github.com/rime/weasel/issues/946>
-  appname2.exe:
-    ascii_mode: false # 非英文模式
 
 
 # 以下是一个示例方案
