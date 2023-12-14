@@ -1,0 +1,5 @@
+patch:
+  "preset_color_schemes/+":
+    __include: "weasel_style_custom:/preset_color_schemes"
+  "style/+":
+    __include: "weasel_style_custom:/style"

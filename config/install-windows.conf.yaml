@@ -27,6 +27,8 @@
     ~/AppData/Roaming/Rime:
         glob: true
         path: apps/rime/rime-ice/*
+    ~/AppData/Roaming/Rime/weasel_style_custom.yaml: apps/rime/custom/weasel_style_custom.yaml
+    ~/AppData/Roaming/Rime/weasel.custom.yaml: apps/rime/custom/weasel.custom.yaml
     
     # Wechat Files
     ~/Documents/WeChat Files: ../ProgramData/WeChat Files
