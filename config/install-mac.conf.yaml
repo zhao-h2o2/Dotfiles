@@ -1,10 +1,15 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
 - link:
+    ~/.config/yabai: desktop/yabai/yabai
+    ~/.config/skhd: desktop/yabai/skhd
     ~/Library/Rime/:
       glob: true
-      path: rime/rime-ice/*
-    ~/Library/Rime/squirrel.custom.yaml: rime/custom/squirrel.custom.yaml
-    ~/.config/yabai: yabai
-    ~/.config/skhd: skhd
+      path: apps/rime/rime-ice/*
+    ~/Library/Rime/squirrel.custom.yaml: apps/rime/custom/squirrel.custom.yaml
 
 - tap:
     - homebrew/cask-fonts

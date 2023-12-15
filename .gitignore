@@ -1,8 +1,12 @@
 # zsh
-zsh/.zcomp*
-zsh/.zsh_history
-zsh/.zsh_sessions
+shell/zsh/.zcomp*
+shell/zsh/.zsh_history
+shell/zsh/.zsh_sessions
+shell/zsh/.zhistory
 
 # ranger
 __pycache__
-ranger/plugins/__init__.py
+cli-apps/ranger/plugins/__init__.py
+
+# everything
+apps/everything/everything/Run History.csv
