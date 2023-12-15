@@ -4,4 +4,41 @@
       relink: true
 
 - link:
+    # ssh
+    ~/.ssh/id_ed25519: ../Secrets/ssh/id_ed25519
+    ~/.ssh/id_ed25519.pub: ../Secrets/ssh/id_ed25519.pub
+    # git
     ~/.gitconfig: shell/git/.gitconfig-win
+    # python
+    ~/AppData/Roaming/pip/pip.ini: shell/python/pip.ini
+    ~/.condarc: shell/python/.condarc
+
+    # Clash
+    ~/.config/clash: ../Secrets/clash
+    # Listary
+    ~/AppData/Roaming/Listary/UserProfile/Settings/Preferences.json: apps/listary/UserProfile/Settings/Preferences.json
+    ~/AppData/Roaming/Listary/UserProfile/UserFiles: apps/listary/UserProfile/UserFiles
+    # everything
+    ~/AppData/Roaming/Everything: apps/everything/everything
+    C:/Program Files/Everything:
+        glob: true
+        path: apps/everything/everythinglib/*
+    # Rime
+    ~/AppData/Roaming/Rime:
+        glob: true
+        path: apps/rime/rime-ice/*
+    ~/AppData/Roaming/Rime/weasel_style_custom.yaml: apps/rime/custom/weasel_style_custom.yaml
+    ~/AppData/Roaming/Rime/weasel.custom.yaml: apps/rime/custom/weasel.custom.yaml
+    
+    # Wechat Files
+    ~/Documents/WeChat Files: ../ProgramData/WeChat Files
+    ~/Documents/WXWork: ../ProgramData/WXWork
+    # Total Commander
+    ~/AppData/Local/TotalCMD64: ../ProgramData/TotalCMD64
+    # typora
+    ~/AppData/Roaming/Typora/themes: ../ProgramData/Typora/themes
+
+- shell:
+  - [regedit /s desktop\windows\Registry\UTC.reg]
+  - [regedit /s desktop\windows\Registry\Origin2021.reg]
+  - [regedit /s desktop\windows\Registry\TotalCommander.reg]
