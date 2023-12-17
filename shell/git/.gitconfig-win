@@ -6,3 +6,8 @@
 [mergetool "sourcetree"]
 	cmd = "'' "
 	trustExitCode = true
+[safe]
+	directory = D:/0.Toolchains/Dotfiles/dotbot/main
+	directory = D:/0.Toolchains/Dotfiles/dotbot/dotbot-brew
+	directory = D:/0.Toolchains/Dotfiles/apps/rime/rime-ice
+	directory = D:/0.Toolchains/Dotfiles/dotbot/main/lib/pyyaml
