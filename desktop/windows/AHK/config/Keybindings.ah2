@@ -6,6 +6,7 @@
 ; 锁屏+熄屏
 #l::{
     SystemLockScreen()
+    Sleep 300
     SystemCloseScreen()
 }
 ; 锁屏+睡眠
